@@ -32,7 +32,7 @@ body {
 /* HomePage */
 header {
     height: 40em;
-    background-image: url(src/jamy.jpg);
+    background-image: url("https://www.utt.fr/medias/photo/campus-utt_1539870342674-jpg?ID_FICHE=12466");
     background-size: cover;
     background-position-y: center;
 }
