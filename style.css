@@ -1,0 +1,214 @@
+/* Responsive */
+@media (max-width: 500px) {
+    .hero-image {
+        height: 50%!important;
+    }
+    header {
+        height: 50%!important;
+    }
+}
+/* Body */
+body {
+    font-family: Helvetica, Sans-Serif;
+}
+
+/* Navbar */
+#logo-brand {
+    height: 2.7em;
+}
+#nav-list a {
+    color: black;
+    font-family: 'Helvetica', sans-serif;
+    padding: 0em 1.5em 0em 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+#nav-list a:hover{
+    color: #e62b1e;
+}
+
+/* HomePage */
+header {
+    height: 40em;
+    background-image: url(src/jamy.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+.article {
+    padding: 0 0 7em 0;
+}
+.article img {
+    width: 84%;
+    height: auto;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.article img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.article h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    font-size: 2em;
+}
+.article p {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 200;
+    color: grey;
+}
+#button {
+    background-color: #e62b1e;
+    font-weight: 600;
+    color: white;
+    border-radius: 25px;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+#button:hover {
+    background-color: white;
+    color: #e62b1e;
+}
+#social-network a {
+    color: white;
+    font-size: 2.5em;
+    padding: 0 0.3em 0 0.3em;
+}
+#social-network li {
+    margin: 1em 0 1em 0;
+}
+#copyright {
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 1.1em;
+}
+
+
+/* Page édition 2020 */
+.hero-image {
+    height: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 90%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+    letter-spacing: 1.8px;
+    font-size: 16.6px;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#description {
+    
+    font-size: 20px;
+    font-weight: 200; 
+    color: white;
+    padding: 2em;
+}
+#title-speakers h1, #title-team h1, #title-extrait h1 {
+    
+    font-weight: 300;
+    font-size: 3em;
+    color: black;
+    padding: 0.5em;
+}
+#content-speakers img {
+    width: 100%;
+}
+#content-speakers h2 {
+    
+    font-weight: 500;
+    font-size: 1.3em;
+    margin: 0.7em 0em 0em 0em !important;
+    text-transform: uppercase;
+}
+#content-speakers h3 {
+    
+    font-weight: 200;
+    color: grey;
+    font-size: 1.1em;
+    padding-bottom: 2em;
+}
+
+
+#content-team img {
+    width: 100%;
+}
+#content-team h2 {
+    
+    font-weight: 300;
+    font-size: 1.3em;
+    margin: 0.7em 0em 0em 0em !important;
+    text-transform: uppercase;
+}
+#content-team h3 {    
+    font-weight: 200;
+    color: grey;
+    font-size: 1.1em;
+    padding-bottom: 2em;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.hrow{
+    margin: 3em 0;
+}
+
