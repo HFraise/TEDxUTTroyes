@@ -34,7 +34,10 @@ header {
     height: 40em;
     background-image: url("https://www.utt.fr/medias/photo/campus-utt_1539870342674-jpg?ID_FICHE=12466");
     background-size: cover;
-    background-position-y: center;
+    background-position-y: -15em;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .article {
     padding: 0 0 7em 0;
