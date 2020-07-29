@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="src/logo.png">
   <title>Edition 2019 - TEDxUTTroyes</title>
   <link rel="stylesheet" href="style.css">
   <!-- Fonts -->
@@ -66,49 +67,19 @@
       <div id="content-speakers">
         <div class="row" id="speaker1">
           <div class="col-md-3 justify-content-center">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="src/edition-2019/speakers/alexandreDana.png" alt="alexandreDana" class="img-fluid" id="imgref">
-                </div>
-                <div class="flip-card-back">
-                  <h1>Alexandre Dana</h1>
-                  <p>Fondateur et CEO de LiveMentor</p>
-                </div>
-              </div>
-            </div>
+            <img src="src/edition-2019/speakers/alexandreDana.png" alt="alexandreDana" class="img-fluid" id="imgref">
             <h2>Alexandre Dana</h2>
             <h3>Fondateur et CEO de LiveMentor</h3>
           </div>
 
           <div class="col-md-3 justify-content-center">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="src/edition-2019/speakers/cyrielleHariel.jpg" alt="cyrielleHariel" class="img-fluid">
-                </div>
-                <div class="flip-card-back">
-                  <h1>Cyrielle Hariel</h1>
-                  <p>Journaliste</p>
-                </div>
-              </div>
-            </div>
+            <img src="src/edition-2019/speakers/cyrielleHariel.jpg" alt="cyrielleHariel" class="img-fluid">
             <h2>Cyrielle Hariel</h2>
             <h3>Journaliste</h3>
           </div>
 
           <div class="col-md-3 justify-content-center">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="src/edition-2019/speakers/mahamadouFaty.jpg" alt="mahamadouFaty" class="img-fluid">
-                </div>
-                <div class="flip-card-back">
-                  <h1>Mahamadou Faty</h1>
-                  <p>Chercheur en biologie</p>
-                </div>
-              </div>
-            </div>
+            <img src="src/edition-2019/speakers/mahamadouFaty.jpg" alt="mahamadouFaty" class="img-fluid">
             <h2>Mahamadou Faty</h2>
             <h3>Chercheur en biologie</h3>
           </div>
@@ -116,17 +87,7 @@
 
 
           <div class="col-md-3 justify-content-center">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="src/edition-2019/speakers/fredericPetitjean.jpg" alt="fredericPetitjean" class="img-fluid">
-                </div>
-                <div class="flip-card-back">
-                  <h1>Frederic Petitjean</h1>
-                  <p>Scénariste</p>
-                </div>
-              </div>
-            </div>
+            <img src="src/edition-2019/speakers/fredericPetitjean.jpg" alt="fredericPetitjean" class="img-fluid">
             <h2>Frederic Petitjean</h2>
             <h3>Scénariste</h3>
           </div>
@@ -207,27 +168,6 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.slim.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-
-<!-- Script taille image mais c'est bancale -->
-<script type="text/javascript">
-  var elmnt = document.getElementById("imgref");
-  var height ="";
-  height = elmnt.clientHeight + "px";
-  var largeurfenetre = window.innerWidth;
-
-  if (largeurfenetre>425){
-    var hflipcard= document.getElementsByClassName("flip-card");
-    var hflipcardinner= document.getElementsByClassName("flip-card-inner");
-    var hflipcardf= document.getElementsByClassName("flip-card-front");
-    var hflipcardb= document.getElementsByClassName("flip-card-back");
-    for (var i=0; i<6; i++){
-      hflipcard[i].style.height = height;
-      hflipcardinner[i].style.height = height;
-      hflipcardf[i].style.height = height;
-      hflipcardb[i].style.height = height;
-    }
-  }
 
   
 </script>

@@ -3,3 +3,4 @@ Liste de ce qu'on doit faire ( To Do List (Le03 gang)):
 -Faire une page sponsor
 -Tenir une actualité sur l'évolution de l'événement => Page temporaire avec lien sur l'accueil?
 -Trouver qq chose pour texte speaker
+-Optimiser les images (fin)
