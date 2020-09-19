@@ -128,10 +128,10 @@ body, html {
 }
 #title-speakers h1, #title-team h1, #title-extrait h1 {
     
-    font-weight: 300;
+    font-weight: 500;
     font-size: 3em;
     color: black;
-    padding: 0.5em;
+    padding: 15px;
 }
 #content-speakers img {
     width: 100%;
