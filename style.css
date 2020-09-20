@@ -6,6 +6,10 @@
     header {
         height: 50%!important;
     }
+
+    #title-speakers h1, #title-team h1, #title-extrait h1{
+        font-size: 2.5rem !important;
+    }
 }
 
 @media (max-width: 320px) {
