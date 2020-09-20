@@ -7,6 +7,12 @@
         height: 50%!important;
     }
 }
+
+@media (max-width: 320px) {
+    .navbar-brand {
+        font-size: unset !important;
+    }
+}
 /* Body */
 body {
     font-family: Helvetica, Sans-Serif;
@@ -171,4 +177,8 @@ body, html {
 
 .speaker1, .speaker2{
     margin-bottom: 2em;
+}
+
+.fa:hover{
+    color: #e62b1e;
 }
