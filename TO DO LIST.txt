@@ -5,3 +5,4 @@ Liste de ce qu'on doit faire ( To Do List (Le03 gang)):
 -Trouver qq chose pour texte speaker
 -Optimiser les images (fin)
 -Page 2017 ==> Changer thème, responsive equipe ?
+Image équipe, enlever margin top de l'image du centre
